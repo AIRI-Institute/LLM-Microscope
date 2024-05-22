@@ -6,7 +6,7 @@ This repository contains the official implementation of the code for the paper [
 
 We've also created a pip package containing the functions from [notebook](https://github.com/AIRI-Institute/LLM-Microscope/blob/main/LLM_microscope.ipynb).
 
-Use ```pip install llm- ``` to install it.
+Use ```pip install llm-microscope``` to install it.
 
 ### Example
 
