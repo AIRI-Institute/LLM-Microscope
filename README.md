@@ -16,7 +16,8 @@ from llm_microscope import  (
   calculate_anisotropy_torch,
   intrinsic_dimension,
   procrustes_similarity,
-  procrustes_similarity_centered
+  procrustes_similarity_centered,
+  load_enwiki_text
 )
 
 device = 'cpu'
@@ -28,4 +29,8 @@ anisotropy = calculate_anisotropy_torch(X) # anisotropy score
 int_dim = intrinsic_dimension(X, device) # intrinsic dimension
 linearity_score = procrustes_similarity(X, Y) # linearity score from tha paper
 centered_linearity_score = procrustes_similarity_centered(X, Y) # the same as linearity between X and Y - X
+
+
+# You can also download the dataset that we used in the paper using load_enwiki_text function:
+text = llm_microscope.load_enwiki_text()
 ```
