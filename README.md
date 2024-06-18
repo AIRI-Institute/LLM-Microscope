@@ -27,7 +27,7 @@ Y = torch.randn((1000, 10)) # pseudo-random "features", 1000 vectors with dim=10
 
 anisotropy = calculate_anisotropy_torch(X) # anisotropy score
 int_dim = intrinsic_dimension(X, device) # intrinsic dimension
-linearity_score = procrustes_similarity(X, Y) # linearity score from tha paper
+linearity_score = procrustes_similarity(X, Y) # linearity score from the paper
 centered_linearity_score = procrustes_similarity_centered(X, Y) # the same as linearity between X and Y - X
 
 
