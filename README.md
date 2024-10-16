@@ -1,7 +1,6 @@
 # LLM-Microscope
 
-This repository contains the official implementation of the code for papers "LLM-Microscope: A Toolkit for Quantifying and Visualizing
-Language Model Internals" and "[Your Transformer is Secretly Linear](https://arxiv.org/abs/2405.12250)".
+This repository contains the official implementation of the code for papers "Unveiling Contextual Memory in LLMs: A Toolkit for Quantifying and Visualizing Language Model Internals" and "[Your Transformer is Secretly Linear](https://arxiv.org/abs/2405.12250)".
 
 ![Linearity Profiles](linearity_profiles.png)
 
